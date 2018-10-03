@@ -1,0 +1,23 @@
+{
+  "name": "lee_smeltzer_agencyx",
+  "version": "1.0.0",
+  "description": "Homework 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidanleee/Lee_Smeltzer_AgencyX.git"
+  },
+  "author": "Aidan Lee and Kyle Smeltzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aidanleee/Lee_Smeltzer_AgencyX/issues"
+  },
+  "homepage": "https://github.com/aidanleee/Lee_Smeltzer_AgencyX#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
