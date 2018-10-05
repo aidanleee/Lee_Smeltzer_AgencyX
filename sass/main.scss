@@ -1,2 +1,75 @@
 // import variables and modules
 @import '_vars';
+
+.hide {
+    display: none;
+}
+
+body {
+    background-color: $bg-main
+}
+
+#site-container {
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+#bg-accent {
+    background-color: $bg-accent;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 40%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+header {
+    height: 165px;
+    img {
+        margin-top: 50px;
+    }
+}
+
+#about-sect {
+    color: $text-dark;
+}
+
+.about-headshot img {
+    width: 100%;
+    padding: 0 10px 0 10px;
+}
+
+
+.about-bio {
+    background-color: $bg-light;
+    margin: 0 25px 0 25px;
+    h2 {
+        margin: 30px 0 10px 15px;
+        font-size: 36px;
+        font-weight: 600;
+    }
+    p {
+        padding: 15px;
+        font-size: 22px;
+    }
+}
+
+.about-bttn {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 25px;
+    background-color: $bg-main;
+    color: $text-light;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 40px;
+}
+
+.about-bttn:hover {
+    background-color: $AX-red;
+    transition: 0.3s;
+    cursor: pointer;
+}
