@@ -107,17 +107,39 @@ header {
     float: right;
 }
 
+.lightbox {
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.95);
+  transition-timing-function: ease-in-out;
+  background: rgba(0,0,0,0.6);
+  transition: opacity 5s;
+}
+
+
+.close-lightbox {
+	position: absolute;
+	right: 12px;
+	top: 12px;
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+}
+
+.show-lightbox {
+  display: block;
+  opacity: 1; }
+
 .about-bttn-desk:hover {
     background-color: $AX-red;
     transition: 0.3s;
     cursor: pointer;
 }
-
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
-
- }
-
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 991px) {
     #about-sect-desk {
