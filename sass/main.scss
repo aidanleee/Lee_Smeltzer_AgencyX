@@ -43,6 +43,27 @@ header {
 }
 
 
+
+
+.about-headshot-desk img {
+    width: 100%;
+}
+
+.about-bio-desk {
+    margin-top: 290px;
+    color: $text-light;
+    h2 {
+        font-size: 60px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    p {
+        font-size: 28px;
+        margin-left: 20px;
+    }
+}
+
+
 .about-bio {
     background-color: $bg-light;
     margin: 0 25px 0 25px;
@@ -72,4 +93,47 @@ header {
     background-color: $AX-red;
     transition: 0.3s;
     cursor: pointer;
+}
+
+.about-bttn-desk {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 25px;
+    background-color: $bg-light;
+    color: $text-dark;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    float: right;
+}
+
+.about-bttn-desk:hover {
+    background-color: $AX-red;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 991px) {
+    #about-sect-desk {
+        display: none;
+    }
+    
+ }
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    #about-sect {
+        display: none;
+    }
+    #bg-accent {
+        width: 30%;
+    }
+
 }
